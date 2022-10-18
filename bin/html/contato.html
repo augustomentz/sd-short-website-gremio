@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contato</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: "Roboto Condensed", sans-serif;
+			}
+			
+			body {
+				background-image: url("images/background.jpg");
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+			}
+			
+			.main {
+				width: 80%;
+				min-height: 455px;
+				background-color: #1e90ff;
+				display: grid;
+			    grid-template-columns: .35fr 1fr;
+			    padding: 15px;
+			}
+			
+			.main .menu {
+				display: flex;
+			    flex-direction: column;
+			    align-items: center;
+				margin: 30px 0;
+			}
+			
+			.main .menu img {
+				height: 75px;
+				width: 75px;
+			}
+			
+			.main .menu ul {
+				margin-top: 35px;
+				list-style: none;
+				text-align: center;
+	    		font-size: 18px;
+			}
+			
+			.main .menu ul li {
+				text-transform: uppercase;
+				margin: 15px;
+			}
+			
+			.main .menu ul li a {
+				color: white;
+				text-decoration: none;
+				font-weight: 600;
+			}
+			
+			.contact {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+			
+			.contact img {
+				width: 150px;
+				height: 150px;
+			}
+			
+			.contact ul {
+				list-style: none;
+				text-align: center;
+	    		font-size: 18px;
+			}
+
+			.contact ul li {
+				margin: 15px 0;
+			}
+			
+			.contact ul li a {
+				color: white;
+				text-decoration: underline;
+				font-weight: 600;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="menu">
+				<img src="images/logo.png" />
+				<ul>
+					<li><a href="/index.html">Página Inicial</a></li>
+					<li><a href="/galeria.html">Galeria</a></li>
+					<li><a href="/contato.html">Contato</a></li>
+				</ul>
+			</div>
+			<div class="contact">
+				<img src="images/logo.png"></img>
+				
+				<ul>
+					<li><a href="https://www.gremio.net" target="_blank">Site oficial</a></li>
+					<li><a href="https://gremiomania.com.br" target="_blank">Grêmio Mania</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
